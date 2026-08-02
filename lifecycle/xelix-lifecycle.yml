@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.xelix.com/ + https://xelix.com/setup
+status_page: https://status.xelix.com/
+status_page_platform: UptimeRobot
+versioning: null
+deprecation: null
+sla:
+  url: null
+  notes: Marketing site cites "high availability and dependability"; the public
+    status page publishes uptime over 24h-90d windows with email subscription.
+    No public SLA document or uptime target found.
+deprecated_operations: []
+notes: Xelix publishes no public API, so no versioning or deprecation policy
+  exists to capture. The status page is the operational-transparency surface.

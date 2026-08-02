@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://trust.xelix.com/
+platform: Vanta
+certifications:
+- ISO 27001
+- SOC 2
+- GDPR
+evidence:
+- source: https://trust.xelix.com/
+  kind: trust-center
+  notes: Vanta-hosted "Xelix Trust Center" (assets.vanta.com bundle, canonical
+    trust.xelix.com); meta keywords "Trust, Security, Compliance, Automation";
+    meta description cites advanced encryption, role-based access controls,
+    regular security audits and continuous monitoring. Body is JS-rendered, so
+    the keyword probe (probe-security-programs.py) recorded no hit — captured
+    here from the served HTML metadata instead.
+- source: https://xelix.com/setup
+  kind: marketing-claim
+  quote: Xelix holds ISO27001 and SOC2 certifications; data is encrypted, GDPR
+    compliant and stored in the EU, US or UK on AWS, with regular penetration
+    tests, strict access controls and robust backup processes.
+- source: https://xelix.com
+  kind: footer-link
+  notes: Site footer links to https://trust.xelix.com/.

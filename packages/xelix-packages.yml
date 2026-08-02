@@ -1,0 +1,58 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/xelixdev + https://pypi.org
+note: Xelix publishes no API client SDKs (the platform has no public developer
+  API). These are first-party open-source engineering packages published on PyPI
+  by the Xelix engineering team (xelixdev GitHub org, @xelix.com maintainer
+  emails) — internal-tooling OSS, not API clients, so no SDKs pointer is wired.
+packages:
+- language: python
+  registry: pypi
+  name: django-pgviews-redux
+  version: 1.2.0
+  url: https://pypi.org/project/django-pgviews-redux/
+  repository: https://github.com/xelixdev/django-pgviews-redux
+  install: pip install django-pgviews-redux
+  official: true
+  sdk: false
+  summary: Create and manage Postgres SQL Views in Django
+- language: python
+  registry: pypi
+  name: csv-gp
+  version: 0.4.0
+  url: https://pypi.org/project/csv-gp/
+  repository: https://github.com/xelixdev/csv-gp
+  install: pip install csv-gp
+  official: true
+  sdk: false
+  summary: Pinpoint common issues with a CSV file (Rust core with Python bindings)
+- language: python
+  registry: pypi
+  name: django-memoized-prefetch
+  version: 0.1.2
+  url: https://pypi.org/project/django-memoized-prefetch/
+  repository: https://github.com/xelixdev/django-memoized-prefetch
+  install: pip install django-memoized-prefetch
+  official: true
+  sdk: false
+  summary: A memoized prefetch for Django
+- language: python
+  registry: pypi
+  name: django-eagle
+  version: 0.1.0
+  url: https://pypi.org/project/django-eagle/
+  repository: https://github.com/xelixdev/django-eagle
+  install: pip install django-eagle
+  official: true
+  sdk: false
+  summary: Catch wasted eager loads in Django ORM queries
+- language: python
+  registry: pypi
+  name: django-tenants-smart-executor
+  version: 0.2.0
+  url: https://pypi.org/project/django-tenants-smart-executor/
+  repository: https://github.com/xelixdev/django-tenants-smart-executor
+  install: pip install django-tenants-smart-executor
+  official: true
+  sdk: false
+  summary: Migration-aware executors for django-tenants

@@ -1,0 +1,52 @@
+generated: '2026-07-21'
+method: searched
+note: No genuine well-known discovery documents found on any Xelix host.
+  ap.xelix.com is an SPA whose router returns HTTP 200 with the app shell for
+  any path (verified with a nonexistent control path), so its 200s below are
+  false positives — content-type text/html, no JSON. No raw files saved.
+hosts:
+- host: https://xelix.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://api.xelix.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://ap.xelix.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 200
+    false_positive: SPA catch-all returns text/html app shell, not OIDC JSON
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    false_positive: SPA catch-all returns text/html app shell, not RFC 8414 JSON
+  - path: /.well-known/api-catalog
+    status: 200
+    false_positive: SPA catch-all returns text/html app shell, not an API catalog
+  - path: /.well-known/ai-plugin.json
+    status: 403

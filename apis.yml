@@ -1,7 +1,19 @@
 aid: xelix
 name: Xelix
-description: Xelix is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Xelix is a London-based company (with a US office in Wilmington, DE)
+  providing an AI-powered Accounts Payable control platform that bolts onto existing
+  ERP, P2P, and email systems. Its five modules — Transactions (duplicate/incorrect
+  payment and fraud prevention), Statements (supplier statement reconciliation),
+  Helpdesk (generative-AI vendor query resolution), Vendors (master vendor data
+  cleansing), and Reports — process 115M+ invoices annually for 200+ global customers.
+  Backed by Insight Partners ($160M raised July 2025 to advance agentic AI in AP).
+  Xelix is ISO 27001 and SOC 2 certified, GDPR compliant, hosted on AWS (EU/US/UK
+  data residency), and publishes a Vanta trust center and an UptimeRobot status page.
+  Integration is file-based (daily SFTP transfer of invoice, workflow, and master
+  vendor data) plus optional SSO and email integrations; the company publishes no
+  public developer portal or documented API surface, though its platform runs on
+  api.xelix.com and its engineering team maintains open-source Python/Rust packages
+  on GitHub (xelixdev).'
 url: https://raw.githubusercontent.com/api-evangelist/xelix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +21,72 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://xelix.com/hubfs/og_image.jpg
 tags:
 - Company
+- Accounts Payable
+- Financial Technology
+- Artificial Intelligence
+- Fraud Prevention
+- Invoice Processing
+- Vendor Management
+- Procure-to-Pay
+- Reconciliation
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/xelix-domain-security.yml
+- type: Packages
+  url: packages/xelix-packages.yml
+- type: LLMsTxt
+  url: llms/xelix-llms.txt
+- type: Lifecycle
+  url: lifecycle/xelix-lifecycle.yml
+- type: TrustCenter
+  url: security/xelix-trust-center.yml
+- type: Compliance
+  url: https://trust.xelix.com/
+- type: Website
+  url: https://xelix.com
+- type: About
+  url: https://xelix.com/about-us
+- type: Login
+  url: https://ap.xelix.com/login
+- type: Support
+  url: https://community.xelix.com/
+- type: Blog
+  url: https://xelix.com/resources
+- type: PrivacyPolicy
+  url: https://xelix.com/xelix-privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/xelixdev
+- type: StatusPage
+  url: https://status.xelix.com/
+- type: Careers
+  url: https://careers.xelix.com/
+- type: Contact
+  url: https://xelix.com/contact-us/
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
