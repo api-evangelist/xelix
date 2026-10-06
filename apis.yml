@@ -45,7 +45,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 image: https://xelix.com/hubfs/og_image.jpg
 tags:
 - Company
@@ -65,6 +65,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://xelix.com/resources/rss.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/xelix-domain-security.yml
 - type: Packages
