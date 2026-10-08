@@ -1,0 +1,21 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://xelix.com/case-studies
+sources:
+- https://xelix.com/case-studies
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112026
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: unclear
+  method: page
+  read: '2026-10-07'
+published: false
+note: Customer stories/case studies page; no pricing shown, only 'Get a quote' and 'Book a call' CTAs.
+  Figures cited are customer savings, not prices.
+plan_count: 0
+plans: []
